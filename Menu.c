@@ -75,7 +75,7 @@ int main() {
 
 
             // Prompt user for order number and money amount
-            printf("\nEnter your order number to proceed with ordering. :");
+            printf("\nEnter your order number to proceed with ordering: ");
             scanf("%d", &orderNumber);
         
             printf("Enter money amount: ");
@@ -84,7 +84,7 @@ int main() {
             system("cls");
 
             // Process order based on user input
-            if (orderNumber = 1) {
+            if (orderNumber == 1) {
 
                 // Check if user has sufficient funds for the selected item
                 if (money >= friedChickenWandB) {
@@ -102,7 +102,7 @@ int main() {
                 }
 
             } 
-            else if (orderNumber = 2) {
+            else if (orderNumber == 2) {
 
                 // Check if user has sufficient funds for the selected item
                 if (money >= friedChickenLandT) {
@@ -120,7 +120,7 @@ int main() {
                 }
 
             } 
-            else if (orderNumber = 3) {
+            else if (orderNumber == 3) {
 
                 // Check if user has sufficient funds for the selected item
                 if (money >= chickenSaladSandwich) {
@@ -137,7 +137,7 @@ int main() {
                     return 0;
                 }
             } 
-            else if (orderNumber = 4) {
+            else if (orderNumber == 4) {
 
                 // Check if user has sufficient funds for the selected item
                 if (money >= saladWGrilledChicken) {
@@ -154,7 +154,7 @@ int main() {
                     return 0;
                 }
             } 
-            else if (orderNumber = 5) {
+            else if (orderNumber == 5) {
 
                 // Check if user has sufficient funds for the selected item
                 if (money >= plainSalad) {
@@ -171,7 +171,7 @@ int main() {
                     return 0;
                 }
             } 
-            else if (orderNumber = 6) {
+            else if (orderNumber == 6) {
 
                 // Check if user has sufficient funds for the selected item
                 if (money >= saladDressing) {
@@ -188,7 +188,7 @@ int main() {
                     return 0;
                 }
             } 
-            else if (orderNumber = 7) {
+            else if (orderNumber == 7) {
 
                 // Check if user has sufficient funds for the selected item
                 if (money >= BHKRBSwLettuceTomato) {
